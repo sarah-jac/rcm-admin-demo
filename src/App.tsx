@@ -152,12 +152,9 @@ console.log(formResponse,'res')
                return <Col md={field.width}><FormMultiSelect fieldDetails={field} updateForm={updateFormField} /> </Col>
           }
         })}
-
       </Row>
       <Button onClick={onSubmitForm}>
-
         Submit
-
       </Button>
     </>
   );
